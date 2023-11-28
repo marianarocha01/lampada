@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Garante que o body ocupe 100% da altura da viewport */
+    margin: 0; /* Remove margens padrão do body */
+    transition: background-color 0.5s ease; /* Transição suave para a mudança de cor de fundo */
+}
+
+#container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lampada {
+    width: 150px;
+    height: auto;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
